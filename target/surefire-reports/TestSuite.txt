@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 11.313 s <<< FAILURE! - in TestSuite
+checkUpdateApiTestCase(qa.cimb.testCases.UpdateTaskTestCases)  Time elapsed: 2.301 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	null
+	at qa.cimb.testCases.UpdateTaskTestCases.checkUpdateApiTestCase(UpdateTaskTestCases.java:96)
+
+createNewProject(qa.cimb.testCases.AddProjectTestCase)  Time elapsed: 0.795 s  <<< FAILURE!
+org.json.JSONException: A JSONObject text must begin with '{' at character 1
+	at qa.cimb.testCases.AddProjectTestCase.createNewProject(AddProjectTestCase.java:84)
+

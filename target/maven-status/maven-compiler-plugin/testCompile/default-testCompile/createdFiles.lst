@@ -1,0 +1,4 @@
+qa\cimb\testCases\AddProjectTestCase.class
+qa\cimb\testCases\UpdateTaskTestCases.class
+qa\cimb\testStep\HttpClientsRequests.class
+qa\cimb\testCases\AddTaskTestCase.class
